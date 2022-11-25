@@ -1,0 +1,11 @@
+{
+	id: "320584A28DAE84B1"
+	group: "255B4B124F6B9C22"
+	order_index: 3
+	filename: "2"
+	title: "2.机械时代"
+	icon: "create:gearbox"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

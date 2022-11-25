@@ -1,0 +1,11 @@
+{
+	id: "2D5CA9BFF2A50061"
+	group: "417E9B54F9F37A32"
+	order_index: 0
+	filename: "2D5CA9BFF2A50061"
+	title: "可选：火炮时代"
+	icon: "createbigcannons:thick_steel_cannon_chamber"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

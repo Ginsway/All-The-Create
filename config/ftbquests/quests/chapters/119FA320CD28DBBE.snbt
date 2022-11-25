@@ -1,0 +1,11 @@
+{
+	id: "119FA320CD28DBBE"
+	group: "417E9B54F9F37A32"
+	order_index: 1
+	filename: "119FA320CD28DBBE"
+	title: "无线矿物"
+	icon: "createoreexcavation:drilling_machine"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "0C14EF10F7E225A1"
+	group: "255B4B124F6B9C22"
+	order_index: 6
+	filename: "0C14EF10F7E225A1"
+	title: "5.电气时代"
+	icon: "createaddition:alternator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

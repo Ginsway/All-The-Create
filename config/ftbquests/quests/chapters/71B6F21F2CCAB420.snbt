@@ -1,0 +1,11 @@
+{
+	id: "71B6F21F2CCAB420"
+	group: "204255596FA0BC3A"
+	order_index: 2
+	filename: "71B6F21F2CCAB420"
+	title: "甜食"
+	icon: "create_confectionery:bar_of_white_chocolate"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

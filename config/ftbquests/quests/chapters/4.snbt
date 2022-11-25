@@ -1,0 +1,11 @@
+{
+	id: "6926AB2F3F39A2E5"
+	group: "255B4B124F6B9C22"
+	order_index: 5
+	filename: "4"
+	title: "4.流水时代"
+	icon: "create:smart_fluid_pipe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

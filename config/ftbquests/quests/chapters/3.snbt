@@ -1,0 +1,11 @@
+{
+	id: "5E1D45D2FC07A771"
+	group: "255B4B124F6B9C22"
+	order_index: 4
+	filename: "3"
+	title: "3.动力时代"
+	icon: "create:steam_engine"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

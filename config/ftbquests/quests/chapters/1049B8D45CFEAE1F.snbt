@@ -9,12 +9,12 @@
 	default_hide_dependency_lines: false
 	images: [{
 		x: 0.0d
-		y: -3.5d
+		y: -4.5d
 		width: 16.0d
-		height: 5.0d
+		height: 10.0d
 		rotation: 0.0d
-		image: "grc:textures/no418.png"
-		hover: ["尚未完成的封面"]
+		image: "all_the_create:textures/all_the_create.png"
+		hover: ["封面"]
 		click: ""
 		dev: false
 		corner: false
@@ -86,7 +86,7 @@
 			title: "我的书丢了"
 			icon: "ftbquests:book"
 			x: 4.5d
-			y: 0.0d
+			y: 1.0d
 			subtitle: "请及时挂失"
 			id: "2A9F79EB78AA1F18"
 			tasks: [{
