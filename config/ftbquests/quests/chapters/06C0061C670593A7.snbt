@@ -1,0 +1,11 @@
+{
+	id: "06C0061C670593A7"
+	group: "204255596FA0BC3A"
+	order_index: 1
+	filename: "06C0061C670593A7"
+	title: "水产业"
+	icon: "aquaculture:atlantic_cod"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

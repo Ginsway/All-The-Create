@@ -1,0 +1,11 @@
+{
+	id: "1BA2CD4EA5844D3E"
+	group: "204255596FA0BC3A"
+	order_index: 0
+	filename: "1BA2CD4EA5844D3E"
+	title: "农夫乐事"
+	icon: "farmersdelight:cabbage"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

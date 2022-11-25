@@ -1,0 +1,115 @@
+{
+	id: "449B6DA6FEA2CF7C"
+	group: "255B4B124F6B9C22"
+	order_index: 1
+	filename: "449B6DA6FEA2CF7C"
+	title: "匠魂"
+	icon: {
+		id: "tconstruct:pickaxe"
+		Count: 1b
+		tag: {
+			tic_multipliers: { }
+			tic_stats: {
+				"tconstruct:attack_speed": 1.5246f
+				"tconstruct:mining_speed": 8.25825f
+				"tconstruct:attack_damage": 2.25f
+				"tconstruct:harvest_tier": "minecraft:diamond"
+				"tconstruct:durability": 839.0f
+			}
+			tic_broken: 0b
+			tic_modifiers: [
+				{
+					name: "tconstruct:lightweight"
+					level: 3s
+				}
+				{
+					name: "tconstruct:piercing"
+					level: 1s
+				}
+			]
+			tic_materials: [
+				"tconstruct:cobalt"
+				"tconstruct:cobalt"
+				"tconstruct:cobalt"
+			]
+			Damage: 0
+			tic_persistent_data: {
+				abilities: 1
+				upgrades: 3
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "匠魂之始"
+			x: 0.0d
+			y: -1.0d
+			id: "2381A8AF19BF8FA9"
+			tasks: [{
+				id: "40900E647D7E7A5E"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["2381A8AF19BF8FA9"]
+			id: "41BDDF0CFD61786E"
+			tasks: [{
+				id: "3087EFFE5E53B1C5"
+				type: "item"
+				item: "tconstruct:puny_smelting"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["41BDDF0CFD61786E"]
+			id: "6CE7ABD79CA4674D"
+			tasks: [{
+				id: "089F91463CD16799"
+				type: "item"
+				item: "tconstruct:mighty_smelting"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			dependencies: ["6CE7ABD79CA4674D"]
+			id: "4D9627FD0E6F89CA"
+			tasks: [{
+				id: "73900B4CEB36BA11"
+				type: "item"
+				item: "tconstruct:fantastic_foundry"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["41BDDF0CFD61786E"]
+			id: "0CA0264AAD03DCE3"
+			tasks: [{
+				id: "3D7E7DEFBE103283"
+				type: "item"
+				item: "tconstruct:tinkers_gadgetry"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			dependencies: [
+				"0CA0264AAD03DCE3"
+				"4D9627FD0E6F89CA"
+			]
+			id: "136B5FAEC9DD9B8C"
+			tasks: [{
+				id: "7E807A60B77DF8AF"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
+		}
+	]
+}

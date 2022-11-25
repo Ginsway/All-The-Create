@@ -1,0 +1,22 @@
+{
+	id: "59E93720DB5204D3"
+	group: "255B4B124F6B9C22"
+	order_index: 2
+	filename: "59E93720DB5204D3"
+	title: "1.鞍山时代"
+	icon: "create:andesite_casing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "创造之始"
+		x: 0.0d
+		y: 0.0d
+		id: "283E94816AF23B73"
+		tasks: [{
+			id: "7DCDD320F4FB2746"
+			type: "item"
+			item: "create:andesite_alloy"
+			count: 32L
+		}]
+	}]
+}

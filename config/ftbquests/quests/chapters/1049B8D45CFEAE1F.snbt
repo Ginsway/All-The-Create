@@ -1,0 +1,144 @@
+{
+	id: "1049B8D45CFEAE1F"
+	group: "255B4B124F6B9C22"
+	order_index: 0
+	filename: "1049B8D45CFEAE1F"
+	title: "0.入门MC"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -3.5d
+		width: 16.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "grc:textures/no418.png"
+		hover: ["尚未完成的封面"]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "大宗物品存放处"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "“善用抽屉，物资分类”"
+			dependencies: ["76963F6E74A5B425"]
+			id: "24C6634BACE58CEB"
+			tasks: [{
+				id: "358B3B4431361BEF"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53B800AA3D9C22B8"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+				{
+					id: "64B91063611ABE79"
+					type: "item"
+					item: "storagedrawers:obsidian_storage_upgrade"
+				}
+			]
+		}
+		{
+			title: "大宗物品存放处+"
+			icon: "storagedrawers:compacting_drawers_3"
+			x: 2.0d
+			y: 5.5d
+			subtitle: "“解决整合包里有十七中铜锭的问题(雾)”"
+			hide_dependency_lines: false
+			min_required_dependencies: 1
+			dependencies: ["24C6634BACE58CEB"]
+			dependency_requirement: "one_started"
+			id: "77B1F45564481452"
+			tasks: [{
+				id: "6B7555A4999207AE"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			title: "欢迎游玩No.413整合包"
+			x: -0.5d
+			y: 0.5d
+			subtitle: "请领取初始物品"
+			id: "76963F6E74A5B425"
+			tasks: [{
+				id: "0BE038FB67131978"
+				type: "checkmark"
+				title: "欢迎游玩NO.413整合包"
+			}]
+		}
+		{
+			title: "我的书丢了"
+			icon: "ftbquests:book"
+			x: 4.5d
+			y: 0.0d
+			subtitle: "请及时挂失"
+			id: "2A9F79EB78AA1F18"
+			tasks: [{
+				id: "76518AC9F34D44AF"
+				type: "checkmark"
+				title: "我的书丢了"
+			}]
+			rewards: [{
+				id: "7FD0D8F75A2F2965"
+				type: "questsadditions:repeat"
+				table_id: 8156963671089687450L
+			}]
+		}
+		{
+			title: "要致富，先撸木"
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["76963F6E74A5B425"]
+			id: "698E1923E0A3BA32"
+			tasks: [{
+				id: "29C2E950A2F9077B"
+				type: "item"
+				title: "Any #minecraft:logs_that_burn"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs_that_burn"
+					}
+				}
+			}]
+		}
+		{
+			title: "鞍山时代"
+			x: -1.0d
+			y: 5.0d
+			subtitle: "安山岩（andesite）是中性的钙碱性喷出岩。与闪长岩成分相当。"
+			dependencies: ["698E1923E0A3BA32"]
+			id: "0B13FF6721AB7B9E"
+			tasks: [{
+				id: "55E8559FBC773ACE"
+				type: "item"
+				title: "Any #forge:andesite"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:andesite"
+					}
+				}
+				count: 64L
+			}]
+		}
+	]
+}

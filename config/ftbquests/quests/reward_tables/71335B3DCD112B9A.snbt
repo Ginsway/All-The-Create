@@ -1,0 +1,7 @@
+{
+	id: "71335B3DCD112B9A"
+	order_index: 0
+	title: "任务书"
+	loot_size: 1
+	rewards: [{ item: "ftbquests:book" }]
+}

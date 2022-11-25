@@ -1,0 +1,11 @@
+{
+	id: "30C0A5BCCCC47DE5"
+	group: "417E9B54F9F37A32"
+	order_index: 0
+	filename: "30C0A5BCCCC47DE5"
+	title: "应用能源"
+	icon: "ae2:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

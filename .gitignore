@@ -1,0 +1,16 @@
+crash-reports/
+logs/
+mods/
+natives-windows-x86_64/
+resourcepacks/
+saves/
+schematics/
+shaderpacks/
+XaeroWaypoints/
+XaeroWaypoints_BACKUP032021/
+XaeroWorldMap/
+log4j2.xml
+/*.jar
+/*.cfg
+/*.json
+*.log
