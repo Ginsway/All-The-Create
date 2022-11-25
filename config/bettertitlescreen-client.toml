@@ -1,7 +1,7 @@
 
 ["custom text"]
 	#Insert the custom title screen text you want here (supports multiple lines)
-	text = ["§3All The Create", "§4Alpha Snapshot20221125"]
+	text = ["§3All The Create", "§4Alpha Snapshot20221126"]
 
 [versions]
 	#Show which version of Minecraft the client is currently running.
