@@ -11,6 +11,11 @@
         },
         "enable_inventory_settings_button": {
             "value": false
+        },
+        "continuous_crafting_checkbox_value": "UNCHECKED",
+        "continuous_crafting_saved_value": false,
+        "show_sort_in_rows_button": {
+            "value": false
         }
     }
 }

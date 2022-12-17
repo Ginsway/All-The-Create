@@ -11,7 +11,7 @@ to make editing this file much easier.
 	// Inventory GUI settings for the biomepedia button position.
 	"inventory_position": {
 		"height_offset": 22,
-		"width_offset": 126
+		"width_offset": 118
 	},
 	/* Whether the biomepedia button is visible in the player inventory.
 	   Servers can disable this button from functioning regardless of this value.
