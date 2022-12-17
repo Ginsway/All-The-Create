@@ -15,3 +15,4 @@ log4j2.xml
 /*.json
 *.log
 CustomSkinLoader/CustomSkinAPIPlus-ClientID
+CustomSkinLoader/caches
